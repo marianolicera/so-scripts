@@ -4,13 +4,13 @@ El **Hijo1** debe crear un **Nieto1** y el **Hijo3** debe poder crear 3 hijos, s
 
 Se debería mostrar por pantalla el PID del padre y de los 5 hijos, o sea Hijo1, 2, 3, 4 y 5.
 
-# Padre(PID) ---> Hijo1(PID) ---> Nieto11
-#    "       ---> Hijo2(PID) debe ejecutar #script solicitado
-#    "       ---> Hijo3(PID) ---> Nieto31
-#                    "       ---> Nieto32
-#                    "       ---> Nieto33
-#    "       ---> Hijo4(PID)
-#    "       ---> Hijo5(PID)
+### Padre(PID) ---> Hijo1(PID) ---> Nieto11
+###    "       ---> Hijo2(PID) debe ejecutar #script solicitado
+###    "       ---> Hijo3(PID) ---> Nieto31
+###                    "       ---> Nieto32
+###                    "       ---> Nieto33
+###    "       ---> Hijo4(PID)
+###    "       ---> Hijo5(PID)
 
 SALIDA:
  - Soy el padre pid xxx
