@@ -25,7 +25,7 @@ if [ $opc -eq 1 ]; then
 	done
 	cant1=$(ls a-setuid|wc -l)
 	for arch in a-setuid/*;do
-		chmod 0000 $arch
+		chmod u-s $arch
 	done
 	rm aux
 
