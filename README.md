@@ -26,3 +26,5 @@
  - find path -perm -u=s --> archivos permiso setuid
  - find path -perm -g=s --> archivos permiso setgid
  - find path -perm -1000 --> archivos permiso sticky
+ - ln -s simbolicLink targetFile --> crear link simbolico de un archivo
+ - chown user file --> cambiar de usuario un archivo
